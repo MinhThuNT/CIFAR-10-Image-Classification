@@ -18,7 +18,6 @@ pip-delete-this-directory.txt
 
 # TensorFlow / Keras
 *.h5
-*.keras
 *.pb
 *.pbtxt
 saved_model/
