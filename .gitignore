@@ -1,0 +1,51 @@
+# Python & Virtual Environment
+env/
+venv/
+ENV/
+env*
+venv*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# TensorFlow / Keras
+*.h5
+*.keras
+*.pb
+*.pbtxt
+saved_model/
+variables/
+assets/
+
+# MongoDB & Docker cache
+*.log
+docker-compose.yml
+Dockerfile*
+.dockerignore
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Các thư mục
+W5_7/
+checkpoints/
+sample/
+uploads/
+__MACOSX/
+
+# Render & Heroku không cần
+Procfile.dev
+runtime.txt

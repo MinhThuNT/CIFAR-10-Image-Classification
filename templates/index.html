@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFAR-10 AI Image Classifier - OJT 2025</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CIFAR-10 Image Classifier</h1>
+        <p class="subtitle">Recognize 10 types of objects based on the CIFAR-10 dataset</p>
+
+        <div class="upload-area" id="uploadArea">
+            <p>Drag and drop an image here or click to select</p>
+            <input type="file" id="fileInput" accept="image/*">
+        </div>
+
+        <div id="preview" class="hidden">
+            <img id="previewImg" src="" alt="Selected image">
+            <div class="button-wrapper">
+                <button id="predictBtn" class="hidden">PREDICTION NOW</button>
+            </div>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Prediction Result:</h2>
+            <div class="main-result">
+                <span id="predictedClass"></span>
+                <span id="confidence"></span>
+            </div>
+            <h3>Top 3 Highest Probabilities:</h3>
+            <ol id="top3List"></ol>
+        </div>
+
+        <footer>
+            <p>SE185043 • NGUYEN THI MINH THU • OJT_FA25</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
