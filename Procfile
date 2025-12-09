@@ -1,1 +1,1 @@
-web: gunicorn AI_OJT_Project:app
+web: gunicorn flask_app:app
