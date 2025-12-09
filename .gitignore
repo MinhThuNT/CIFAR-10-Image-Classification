@@ -12,10 +12,6 @@ __pycache__/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
 # TensorFlow / Keras
 *.h5
 *.pb
